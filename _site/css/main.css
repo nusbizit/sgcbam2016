@@ -1,0 +1,94 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%; }
+
+header {
+  background-color: #EEE;
+  height: 100%;
+  width: 100%;
+  position: relative; }
+
+.heading {
+  width: 100%; }
+
+.heading-title {
+  font-size: 3em;
+  font-weight: 900; }
+
+.heading-subtitle {
+  font-size: 2em;
+  font-weight: 500; }
+
+.heading-scroll {
+  margin-top: 50px; }
+
+.details {
+  font-size: 1.2em; }
+
+#promo {
+  background-color: #EEE; }
+
+#promo > div {
+  background-color: #EEE; }
+
+.promo-description {
+  text-align: center; }
+
+.day {
+  font-size: 1.2em;
+  font-weight: 500; }
+
+.activity {
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  border-top: 1px solid black; }
+
+.activity-time {
+  margin-left: 20px; }
+
+.activity-name {
+  margin-left: 50px; }
+
+#sponsors, #sponsors div {
+  background-color: #EEE; }
+
+.sponsor-holder {
+  background-color: #EEE;
+  height: 150px; }
+
+#map-holder {
+  height: 200px;
+  margin-bottom: 20px; }
+
+#contact {
+  padding: 20px; }
+
+#map {
+  width: 100%;
+  height: 200px; }
+
+footer {
+  padding: 0 20px 0 20px;
+  clear: both; }
+
+.text-right {
+  text-align: right; }
+
+.text-center {
+  text-align: center; }
+
+.vert-align {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.sub-title {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: 500;
+  padding-bottom: 20px; }
+
+.test {
+  border: 1px solid black; }

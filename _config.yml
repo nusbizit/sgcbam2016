@@ -1,0 +1,14 @@
+# Website Settings
+title: Business Analytics Mania 2016
+email: rayyan@nusbizit.org
+description: > # this means to ignore newlines until "baseurl:"
+  Singapore Geospatial Challenge - Business Analytics Mania 2016
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com"
+
+# Event Settings
+location: 'University Town'
+date: '3rd - 4th September'
+
+# Build settings
+markdown: kramdown
