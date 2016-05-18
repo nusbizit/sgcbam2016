@@ -83,7 +83,7 @@ header {
   padding: 0 20px 0 20px; }
 
 #about > div {
-  padding: 20px 40px 20px 40px; }
+  padding: 20px 35px 20px 35px; }
 
 .about-logo {
   max-width: 300px;
@@ -91,7 +91,7 @@ header {
   margin-bottom: 10px; }
 
 .about-title {
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: 900;
   color: #222F3E;
   text-align: center; }
@@ -99,10 +99,10 @@ header {
 .about-subtitle {
   font-size: 1.8em;
   text-align: center;
-  color: #222F3E;
-  margin-bottom: 40px; }
+  color: #222F3E; }
 
 .about-subhead {
+  margin-top: 40px;
   font-weight: 700;
   font-size: 1.3em;
   text-align: center; }
@@ -116,20 +116,31 @@ header {
 .about-subhead-3 {
   color: #2B84D2; }
 
-.about-description-1 {
+.about-description {
   text-align: justify;
   padding-top: 10px;
+  font-size: 1.1em; }
+
+.about-description-1 {
   border-top: 5px solid #884089; }
 
 .about-description-2 {
-  text-align: justify;
-  padding-top: 10px;
   border-top: 5px solid #15A59D; }
 
 .about-description-3 {
-  text-align: justify;
-  padding-top: 10px;
   border-top: 5px solid #2B84D2; }
+
+.about-prizes {
+  font-size: 1.1em;
+  font-weight: 900;
+  width: 33.3%;
+  float: left;
+  text-align: center; }
+
+.about-cash {
+  font-size: 1.1em;
+  font-weight: 900;
+  color: #2B84D2; }
 
 #details {
   padding: 0 20px 0 20px; }
@@ -138,16 +149,28 @@ header {
   background-color: #222F3E; }
 
 .detail-title {
+  margin-top: 20px;
   color: white;
-  text-align: center; }
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2em; }
 
 .detail-img {
   color: white;
   text-align: center; }
 
+.detail-img > img {
+  width: 150px;
+  margin-bottom: 10px; }
+
 .detail-description {
-  color: white;
-  text-align: center; }
+  color: #839199;
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 1.1em; }
+
+.detail-bold {
+  color: #FFF; }
 
 #timeline {
   padding: 0 20px 0 20px; }
@@ -204,10 +227,11 @@ header {
 .sponsor-img {
   width: 150px; }
 
-.container-fluid {
-  padding: none !important;
-  border: none !important;
-  margin: none !important; }
+.sponsor-nus-title {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: 700;
+  color: #222F3E; }
 
 #connect, #connect > div {
   background-color: #222F3E;
@@ -218,10 +242,9 @@ header {
 
 #contact {
   margin-top: 20px;
-  text-align: right;
-  font-size: 1.1em; }
+  text-align: right; }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   #contact {
     text-align: center; } }
 #map {
