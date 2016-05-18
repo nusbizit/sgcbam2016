@@ -87,6 +87,7 @@ function init_map() {
     var marker = new google.maps.Marker({
         position: my_location,
     	map: map,
+		icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
 		title: 'NUS University Town, Stephen Riady Centre'
     });
 }

@@ -142,11 +142,9 @@ header {
   font-weight: 900;
   color: #2B84D2; }
 
-#details {
-  padding: 0 20px 0 20px; }
-
 #details, #details > div {
-  background-color: #222F3E; }
+  background-color: #222F3E;
+  padding: 0 20px 0 20px; }
 
 .detail-title {
   margin-top: 20px;
