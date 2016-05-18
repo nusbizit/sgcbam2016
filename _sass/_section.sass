@@ -1,6 +1,35 @@
+// -- Navigation Bar CSS ---
+.navbar-default
+	background-color: $blue-grey
+	border-color: $blue-grey
+
+.navbar-default .navbar-brand
+	color: $white
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus
+	color: $white
+
+.navbar-default .navbar-nav > li > a
+	color: $white
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus
+	color: $white
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus
+	background-color: $blue-grey
+
+.navbar-default .navbar-toggle
+	border-color: $blue-grey
+
+.navbar-default .navbar-toggle .icon-bar
+	background-color: $white
+
 // --- Header CSS ---
 header
-	background-color: $main-color
+	background-color: $blue-grey
 	height: 100%
 	width: 100%
 	position: relative
@@ -11,29 +40,61 @@ header
 .heading-title
 	font-size: 3em
 	font-weight: 900
+	color: $white
 
 .heading-subtitle
 	font-size: 2em
 	font-weight: 500
+	color: $light-grey
+
+.heading-details
+	font-size: 1.2em
+	color: $light-grey
+	margin-bottom: 30px
 
 .heading-scroll
 	margin-top: 50px
+	width: 40px
 
 .details
 	font-size: 1.2em
 
-// --- About CSS ---
+// -- About CSS ---
 #about
+	padding: 0 20px 0 20px
 
-// -- Promote CSS ---
-#promo
-	background-color: $main-color
+#about > div
+	padding: 20px 50px 20px 50px
 
-#promo > div
-	background-color: $main-color
-
-.promo-description
+.about-title
+	font-size: 2em
+	font-weight: 900
+	color: $blue-grey
 	text-align: center
+
+.about-subtitle
+	font-size: 1.8em
+	text-align: center
+	color: $blue-grey
+
+.about-subhead
+	font-weight: 700
+	font-size: 1.3em
+	text-align: center
+
+.about-subhead-1
+	color: $purple
+.about-subhead-2
+	color: $cyan
+.about-subhead-3
+	color: $light-blue
+
+.about-description
+	text-align: center
+
+// --- Details CSS ---
+#details, #details > div
+	background-color: $blue-grey
 
 // --- Timeline CSS ---
 .day
@@ -48,29 +109,48 @@ header
 .activity-name
 	margin-left: 50px
 
-// --- Sponsors CSS ---
-#sponsors, #sponsors div
-	background-color: $main-color
+// --- Register CSS ---
+#register > div
+	padding: 20px
 
-.sponsor-holder
-	background-color: $main-color
+#register, #register > div
+	background-color: $blue-grey
+	color: $white
+	font-size: 1.1em
+	font-weight: 700
+	text-align: center
+
+.reg-button
+	margin: 20px
+
+// --- Sponsors CSS ---
+#sponsor
 	height: 150px
 
+.sponsor-holder
+	height: 150px
+
+.sponsor-img
+	width: 150px
+
 // --- Connect CSS ---
+#connect, #connect > div
+	background-color: $blue-grey
+	color: $light-grey
+
 #connect
 
 #map-holder
-	height: 200px
-	margin-bottom: 20px
 
 #contact
-	padding: 20px
+	text-align: right
 
 #map
-	width: 100%
+	width: 90%
 	height: 200px
 
 // --- Footer CSS ---
 footer
-	padding: 0 20px 0 20px
-	clear: both
+	background-color: $blue-grey
+	padding: 10px 0 5px 0
+	color: $light-grey

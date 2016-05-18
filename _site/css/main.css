@@ -4,8 +4,36 @@ html, body {
   height: 100%;
   width: 100%; }
 
+.navbar-default {
+  background-color: #222F3E;
+  border-color: #222F3E; }
+
+.navbar-default .navbar-brand {
+  color: #FFF; }
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #FFF; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #FFF; }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #FFF; }
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #222F3E; }
+
+.navbar-default .navbar-toggle {
+  border-color: #222F3E; }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #FFF; }
+
 header {
-  background-color: #EEE;
+  background-color: #222F3E;
   height: 100%;
   width: 100%;
   position: relative; }
@@ -15,26 +43,62 @@ header {
 
 .heading-title {
   font-size: 3em;
-  font-weight: 900; }
+  font-weight: 900;
+  color: #FFF; }
 
 .heading-subtitle {
   font-size: 2em;
-  font-weight: 500; }
+  font-weight: 500;
+  color: #839199; }
+
+.heading-details {
+  font-size: 1.2em;
+  color: #839199;
+  margin-bottom: 30px; }
 
 .heading-scroll {
-  margin-top: 50px; }
+  margin-top: 50px;
+  width: 40px; }
 
 .details {
   font-size: 1.2em; }
 
-#promo {
-  background-color: #EEE; }
+#about {
+  padding: 0 20px 0 20px; }
 
-#promo > div {
-  background-color: #EEE; }
+#about > div {
+  padding: 20px 50px 20px 50px; }
 
-.promo-description {
+.about-title {
+  font-size: 2em;
+  font-weight: 900;
+  color: #222F3E;
   text-align: center; }
+
+.about-subtitle {
+  font-size: 1.8em;
+  text-align: center;
+  color: #222F3E; }
+
+.about-subhead {
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: center; }
+
+.about-subhead-1 {
+  color: #884089; }
+
+.about-subhead-2 {
+  color: #15A59D; }
+
+.about-subhead-3 {
+  color: #2B84D2; }
+
+.about-description {
+  text-align: center; }
+
+#details, #details > div {
+  background-color: #222F3E; }
 
 .day {
   font-size: 1.2em;
@@ -51,27 +115,43 @@ header {
 .activity-name {
   margin-left: 50px; }
 
-#sponsors, #sponsors div {
-  background-color: #EEE; }
-
-.sponsor-holder {
-  background-color: #EEE;
-  height: 150px; }
-
-#map-holder {
-  height: 200px;
-  margin-bottom: 20px; }
-
-#contact {
+#register > div {
   padding: 20px; }
 
+#register, #register > div {
+  background-color: #222F3E;
+  color: #FFF;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-align: center; }
+
+.reg-button {
+  margin: 20px; }
+
+#sponsor {
+  height: 150px; }
+
+.sponsor-holder {
+  height: 150px; }
+
+.sponsor-img {
+  width: 150px; }
+
+#connect, #connect > div {
+  background-color: #222F3E;
+  color: #839199; }
+
+#contact {
+  text-align: right; }
+
 #map {
-  width: 100%;
+  width: 90%;
   height: 200px; }
 
 footer {
-  padding: 0 20px 0 20px;
-  clear: both; }
+  background-color: #222F3E;
+  padding: 10px 0 5px 0;
+  color: #839199; }
 
 .text-right {
   text-align: right; }
