@@ -1,21 +1,25 @@
 // -- Navigation Bar CSS ---
 .navbar-default
 	background-color: $blue-grey
-	border-color: $blue-grey
+	border: $blue-grey
 
 .navbar-default .navbar-brand
 	color: $white
+	font-weight: 600
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus
 	color: $white
+	font-weight: 600
 
 .navbar-default .navbar-nav > li > a
-	color: $white
+	color: $light-grey
+	font-weight: 500
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus
 	color: $white
+	font-weight: 500
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus
@@ -26,6 +30,9 @@
 
 .navbar-default .navbar-toggle .icon-bar
 	background-color: $white
+
+#sgc-navbar
+	border: none
 
 // --- Header CSS ---
 header
@@ -53,18 +60,19 @@ header
 	margin-bottom: 30px
 
 .heading-scroll
-	margin-top: 50px
-	width: 40px
-
-.details
-	font-size: 1.2em
+	width: 50px
 
 // -- About CSS ---
 #about
 	padding: 0 20px 0 20px
 
 #about > div
-	padding: 20px 50px 20px 50px
+	padding: 20px 40px 20px 40px
+
+.about-logo
+	max-width: 300px
+	width: 100%
+	margin-bottom: 10px
 
 .about-title
 	font-size: 2em
@@ -76,6 +84,7 @@ header
 	font-size: 1.8em
 	text-align: center
 	color: $blue-grey
+	margin-bottom: 40px
 
 .about-subhead
 	font-weight: 700
@@ -89,14 +98,44 @@ header
 .about-subhead-3
 	color: $light-blue
 
-.about-description
-	text-align: center
+.about-description-1
+	text-align: justify
+	padding-top: 10px
+	border-top: 5px solid $purple
+.about-description-2
+	text-align: justify
+	padding-top: 10px
+	border-top: 5px solid $cyan
+.about-description-3
+	text-align: justify
+	padding-top: 10px
+	border-top: 5px solid $light-blue
+
 
 // --- Details CSS ---
+#details
+	padding: 0 20px 0 20px
+
 #details, #details > div
 	background-color: $blue-grey
 
+.detail-title
+	color: white
+	text-align: center
+
+.detail-img
+	color: white
+	text-align: center
+
+.detail-description
+	color: white
+	text-align: center
+
 // --- Timeline CSS ---
+#timeline
+	padding: 0 20px 0 20px
+
+
 .day
 	font-size: 1.2em
 	font-weight: 500
@@ -127,26 +166,45 @@ header
 #sponsor
 	height: 150px
 
+.sponsor-title
+	font-size: 2.5em
+	text-align: center
+	font-weight: 700
+	color: $blue-grey
+
 .sponsor-holder
 	height: 150px
 
 .sponsor-img
 	width: 150px
 
+.container-fluid
+	padding: none !important
+	border: none !important
+	margin: none !important
+
 // --- Connect CSS ---
 #connect, #connect > div
 	background-color: $blue-grey
 	color: $light-grey
 
-#connect
+#connect > div
+	padding: 20px
 
 #map-holder
 
 #contact
+	margin-top: 20px
 	text-align: right
+	font-size: 1.1em
+
+
+@media screen and (max-width: 600px)
+	#contact
+		text-align: center
 
 #map
-	width: 90%
+	width: 100%
 	height: 200px
 
 // --- Footer CSS ---
