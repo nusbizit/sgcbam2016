@@ -42,6 +42,16 @@ html, body {
 #sgc-navbar {
   border: none; }
 
+.nav-reg {
+  background-color: #15A59D; }
+
+.nav-reg > a {
+  color: #FFF !important;
+  font-weight: 700 !important; }
+
+.nav-reg:hover, .nav-reg:focus {
+  background-color: #00bbbb; }
+
 header {
   background-color: #222F3E;
   height: 100%;
@@ -168,7 +178,16 @@ header {
   text-align: center; }
 
 .reg-button {
-  margin: 20px; }
+  margin: 20px;
+  background-color: #15A59D;
+  border: 5px solid #15A59D;
+  color: #FFF;
+  font-weight: 700; }
+
+.reg-button:hover, .reg-button:focus {
+  background-color: #00bbbb;
+  border: 5px solid #00bbbb;
+  color: #FFF; }
 
 #sponsor {
   height: 150px; }

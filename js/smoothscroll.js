@@ -8,7 +8,7 @@ $(function() {
         // Scroll a bit more to the top of tag for nav-bar space
         $('html, body').animate({
           scrollTop: target.offset().top - 50
-        }, 1000);
+        }, 500);
         return false;
       }
     }
