@@ -7,13 +7,6 @@ html, body {
   max-width: 100%;
   font-family: "Open Sans"; }
 
-.col-sm-1point5 {
-  width: 12.5%;
-  float: left; }
-
-@media screen and (max-width: 768px) {
-  .col-sm-1point5 {
-    width: 100%; } }
 .navbar-default {
   background-color: #222F3E;
   border: #222F3E; }
@@ -59,8 +52,14 @@ html, body {
 .nav-reg:hover, .nav-reg:focus {
   background-color: #00bbbb; }
 
+.nav-logo {
+  height: 20px;
+  margin-right: 10px;
+  float: left; }
+
 header {
-  background-color: #222F3E;
+  background-image: url("img/background.png");
+  background-size: 1600px 1000px;
   height: 100%;
   width: 100%;
   position: relative; }
@@ -76,11 +75,11 @@ header {
 .heading-subtitle {
   font-size: 2em;
   font-weight: 500;
-  color: #839199; }
+  color: #FFF; }
 
 .heading-details {
   font-size: 1.2em;
-  color: #839199;
+  color: #FFF;
   margin-bottom: 30px; }
 
 .heading-scroll {
