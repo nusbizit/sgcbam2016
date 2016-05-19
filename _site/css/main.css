@@ -125,7 +125,8 @@ header {
 .about-description {
   text-align: justify;
   padding-top: 10px;
-  font-size: 1.1em; }
+  font-size: 1em;
+  font-weight: 500; }
 
 .about-description-1 {
   border-top: 5px solid #884089; }
@@ -144,7 +145,7 @@ header {
   text-align: center; }
 
 .about-cash {
-  font-size: 1.1em;
+  font-size: 1.3em;
   font-weight: 900;
   color: #2B84D2; }
 
