@@ -161,20 +161,95 @@ header
 
 // --- Timeline CSS ---
 #timeline
-	padding: 0 20px 0 20px
-
+	padding: 40px 20px 40px 20px
 
 .day
 	font-size: 1.2em
 	font-weight: 500
+
 .activity
-	width: 100%
-	padding: 10px 20px 10px 20px
-	border-top: 1px solid black
+	padding: 0 5px 0 5px
+
+.activity-heading
+	text-align: center
+	font-size: 2.3em
+	font-weight: 900
+
+.activity-green1
+	background-color: #15A59D
+.activity-green2
+	background-color: #12A29A
+.activity-green3
+	background-color: #099998
+.activity-green4
+	background-color: #069695
+.activity-green5
+	background-color: #039392
+.activity-green6
+	background-color: #00908F
+.activity-green7
+	background-color: #008D8C
+.activity-green8
+	background-color: #008A89
+
+.activity-blue1
+	background-color: #2B84D2
+.activity-blue2
+	background-color: #2981CE
+.activity-blue3
+	background-color: #268EDB
+.activity-blue4
+	background-color: #2381CF
+.activity-blue5
+	background-color: #207DCC
+.activity-blue6
+	background-color: #1D7AC9
+.activity-blue7
+	background-color: #1A78C6
+.activity-blue8
+	background-color: #1875C3
+
 .activity-time
-	margin-left: 20px
+	font-size: 1.3em
+	font-weight: 900
+	margin-top: 20px
+	padding: 0 0 0 10px
+	color: $white
+	height: 25px
+
 .activity-name
-	margin-left: 50px
+	padding: 0 0 0 10px
+	font-size: 1em
+	font-weight: 900
+	margin-bottom: 10px
+
+.activity-connector
+	padding: 0px
+	height: 15px
+
+.left-connector-green
+	border-left: 3px solid #00908F
+.hori-connector-green
+	border-bottom: 3px solid #00908F
+.right-connector-green
+	border-left: 3px solid #00908F
+
+.left-connector-blue
+	border-left: 3px solid #2381CF
+.hori-connector-blue
+	border-bottom: 3px solid #2381CF
+.right-connector-blue
+	border-left: 3px solid #2381CF
+
+.activity-calendar
+	width: 75px
+
+.activity-rocket
+	width: 75px
+
+@media screen and (max-width: 768px)
+	.activity-connector
+		display: none
 
 // --- Register CSS ---
 #register > div
