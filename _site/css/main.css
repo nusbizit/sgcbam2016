@@ -181,6 +181,29 @@ header {
 .detail-bold {
   color: #FFF; }
 
+/* Newly added sections */
+#thechallenge {
+  padding: 40px 20px 40px 20px; }
+
+#format {
+  background-color: #222F3E;
+  padding: 40px 20px 40px 20px; }
+
+#preparation {
+  padding: 40px 20px 40px 20px; }
+
+#forme {
+  background-color: #222F3E;
+  padding: 40px 20px 40px 20px; }
+
+#tshirt {
+  padding: 40px 20px 40px 20px; }
+
+#counter {
+  background-color: #222F3E;
+  padding: 40px 20px 40px 20px; }
+/* End newly added sections */
+
 #timeline {
   padding: 40px 20px 40px 20px; }
 
