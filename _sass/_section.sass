@@ -50,7 +50,7 @@
 // --- Header CSS ---
 header
 	background-image: url('img/background.png')
-	background-size: 1600px 1000px
+	background-size: cover
 	height: 100%
 	width: 100%
 	position: relative
@@ -141,35 +141,104 @@ header
 	font-weight: 900
 	color: $light-blue
 
-// --- Details CSS ---
+// --- Requirements CSS ---
 
-#details, #details > div
+#requirement, #requirement > div
 	background-color: $blue-grey
 	padding: 0 20px 0 20px
 
-.detail-title
+.req-title
 	margin-top: 20px
 	color: white
 	text-align: center
 	font-weight: 600
 	font-size: 1.2em
 
-.detail-img
-	color: white
+.req-img
 	text-align: center
 
-.detail-img > img
+.req-img > img
 	width: 150px
 	margin-bottom: 10px
 
-.detail-description
+.req-description
 	color: $light-grey
 	text-align: center
 	margin-bottom: 40px
 	font-size: 1.1em
 
-.detail-bold
+.req-bold
 	color: $white
+
+// --- Details CSS ---
+#details
+	padding: 20px
+
+#detail-data
+	padding: 20px
+	font-size: 1.1em
+	text-align: justify
+
+.detail-shirt
+	border: 1px solid black
+	height: 350px
+	margin: 60px 0 20px 0
+	text-align: center
+
+.detail-title
+	font-weight: 900
+
+.detail-judge > div
+	float: left
+
+.detail-criteria
+	width: 40%
+	font-weight: 700
+
+.detail-criteria-weight
+	width: 15%
+
+.detail-criteria-info
+	width: 45%
+	text-align: left
+
+// --- Countdown CSS ---
+#countdown
+	background-color: $blue-grey
+	padding: 30px
+
+.countdown-title
+	color: $white
+	font-weight: 900
+	font-size: 1.2em
+	text-align: center
+	margin-bottom: 20px
+
+.counter
+	margin: 0 auto 0 auto
+	width: 160px
+
+svg
+	width: 160px
+	height: 160px
+	-webkit-transform: rotate(-90deg)
+	transform: rotate(-90deg)
+
+#count-day, #count-hour, #count-second, #count-minute
+	stroke-dasharray: 440
+	// this value is the pixel circumference of the circle
+	stroke-dashoffset: 440
+	transition: all 1s linear
+
+#count-day-display, #count-hour-display, #count-minute-display, #count-second-display
+	color: $white
+	font-size: 1.3em
+	font-weight: 900
+	width: 160px
+	height: 160px
+	position: absolute
+	padding: 60px 0 60px 0
+	text-align: center
 
 // --- Timeline CSS ---
 #timeline
@@ -298,7 +367,7 @@ header
 	height: 150px
 
 .sponsor-title
-	margin-top: 10px
+	margin: 10px 0 20px 0
 	font-size: 2.4em
 	text-align: center
 	font-weight: 700
@@ -310,27 +379,45 @@ header
 .sponsor-img
 	width: 150px
 
-.sponsor-nus-title
+.sponsor-small-title
 	font-size: 1.5em
 	text-align: center
 	font-weight: 700
 	color: $blue-grey
+	padding-top: 20px
+
+.sponsor-sm-show
+	display: none
+
+@media screen and (max-width: 768px)
+	.sponsor-sm-hide
+		display: none
+	.sponsor-sm-show
+		display: block
+
 // --- Connect CSS ---
+#connect
+	padding: 20px
+
 #connect, #connect > div
 	background-color: $blue-grey
 	color: $light-grey
 
-#connect > div
-	padding: 20px
-
 #map-holder
 
+#get-there
+	text-align: justify
+
+.connect-title
+	color: $white
+	font-weight: 900
+
 #contact
-	margin-top: 20px
 	text-align: right
 
 @media screen and (max-width: 768px)
-	#contact
+	#get-there, #contact
+		margin-top: 20px
 		text-align: center
 
 #map
@@ -338,11 +425,9 @@ header
 	height: 200px
 
 .connect-email
-	height: 25px
-.connect-phone
-	height: 25px
+	height: 35px
 .connect-fb
-	height: 22px
+	height: 25px
 
 // --- Footer CSS ---
 footer
