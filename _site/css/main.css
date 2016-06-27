@@ -5,7 +5,8 @@ html, body {
   height: 100%;
   width: 100%;
   max-width: 100%;
-  font-family: "Open Sans"; }
+  font-family: "Open Sans";
+  overflow-x: hidden; }
 
 a, a:visited {
   color: #15A59D;
@@ -72,7 +73,8 @@ header {
   background-size: cover;
   height: 100%;
   width: 100%;
-  position: relative; }
+  position: relative;
+  padding-top: 10px; }
 
 .heading {
   width: 100%; }
@@ -96,71 +98,66 @@ header {
   width: 50px; }
 
 #about {
-  padding: 40px 20px 20px 20px; }
-
-#about > div {
-  padding: 20px 35px 20px 35px; }
+  padding: 100px 20px 100px 20px; }
 
 .about-logo {
-  max-width: 300px;
-  width: 100%;
-  margin-bottom: 10px; }
+  max-width: 280px;
+  margin-bottom: 10px;
+  width: 100%; }
 
 .about-title {
-  font-size: 2em;
   font-weight: 900;
+  font-size: 1.5em;
   color: #222F3E;
   text-align: center; }
-
-.about-subtitle {
-  font-size: 1.7em;
-  text-align: center;
-  color: #222F3E; }
-
-.about-subhead {
-  margin-top: 40px;
-  font-weight: 900 !important;
-  font-size: 1.6em;
-  text-align: center; }
-
-.about-subhead-1 {
-  color: #884089; }
-
-.about-subhead-2 {
-  color: #15A59D; }
-
-.about-subhead-3 {
-  color: #2B84D2; }
-
-.about-img img {
-  width: 200px; }
 
 .about-description {
   text-align: justify;
   padding-top: 10px;
-  font-size: 1em;
+  font-size: 1.1em;
   font-weight: 500; }
-
-.about-description-1 {
-  border-top: 5px solid #884089; }
-
-.about-description-2 {
-  border-top: 5px solid #15A59D; }
-
-.about-description-3 {
-  border-top: 5px solid #2B84D2; }
 
 .about-prizes {
   font-size: 1.1em;
   font-weight: 900;
   padding-top: 10px;
-  width: 33.3%;
-  float: left;
   text-align: center; }
 
 .about-cash {
   font-size: 1.3em;
   font-weight: 900;
+  color: #2B84D2; }
+
+@media screen and (max-width: 768px) {
+  .about-description {
+    padding: 30px 0 30px 0; }
+
+  .about-prizes {
+    float: left;
+    width: 33.3%; } }
+#lpa {
+  background-color: #222F3E; }
+
+#details {
+  padding: 20px; }
+
+#detail-data {
+  padding: 20px;
+  font-size: 1.1em;
+  text-align: justify; }
+
+.detail-title {
+  font-weight: 900;
+  font-size: 1.3em;
+  text-align: center; }
+
+.detail-title-1 {
+  color: #884089; }
+
+.detail-title-2 {
+  color: #15A59D; }
+
+.detail-title-3 {
   color: #2B84D2; }
 
 #requirement, #requirement > div {
@@ -190,37 +187,23 @@ header {
 .req-bold {
   color: #FFF; }
 
-#details {
-  padding: 20px; }
+#tshirt {
+  padding: 50px 40px 20px 40px; }
 
-#detail-data {
-  padding: 20px;
-  font-size: 1.1em;
-  text-align: justify; }
-
-.detail-shirt {
+.tshirt-image {
   border: 1px solid black;
-  height: 350px;
-  margin: 60px 0 20px 0;
+  height: 200px;
+  margin: 20px 0 20px 0;
   text-align: center; }
 
-.detail-title {
-  font-weight: 900; }
+.tshirt-description {
+  font-size: 1.1em;
+  margin-top: 70px;
+  text-align: justify; }
 
-.detail-judge > div {
-  float: left; }
-
-.detail-criteria {
-  width: 40%;
-  font-weight: 700; }
-
-.detail-criteria-weight {
-  width: 15%; }
-
-.detail-criteria-info {
-  width: 45%;
-  text-align: left; }
-
+@media screen and (max-width: 768px) {
+  .tshirt-description {
+    margin-top: 20px; } }
 #countdown {
   background-color: #222F3E;
   padding: 30px; }
@@ -455,6 +438,9 @@ svg {
   height: 35px; }
 
 .connect-fb {
+  height: 25px; }
+
+.connect-instagram {
   height: 25px; }
 
 footer {
